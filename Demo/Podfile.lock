@@ -1,18 +1,18 @@
 PODS:
-  - AFNetworking (4.0.0):
-    - AFNetworking/NSURLSession (= 4.0.0)
-    - AFNetworking/Reachability (= 4.0.0)
-    - AFNetworking/Security (= 4.0.0)
-    - AFNetworking/Serialization (= 4.0.0)
-    - AFNetworking/UIKit (= 4.0.0)
-  - AFNetworking/NSURLSession (4.0.0):
+  - AFNetworking (4.0.1):
+    - AFNetworking/NSURLSession (= 4.0.1)
+    - AFNetworking/Reachability (= 4.0.1)
+    - AFNetworking/Security (= 4.0.1)
+    - AFNetworking/Serialization (= 4.0.1)
+    - AFNetworking/UIKit (= 4.0.1)
+  - AFNetworking/NSURLSession (4.0.1):
     - AFNetworking/Reachability
     - AFNetworking/Security
     - AFNetworking/Serialization
-  - AFNetworking/Reachability (4.0.0)
-  - AFNetworking/Security (4.0.0)
-  - AFNetworking/Serialization (4.0.0)
-  - AFNetworking/UIKit (4.0.0):
+  - AFNetworking/Reachability (4.0.1)
+  - AFNetworking/Security (4.0.1)
+  - AFNetworking/Serialization (4.0.1)
+  - AFNetworking/UIKit (4.0.1):
     - AFNetworking/NSURLSession
   - BlocksKit (2.2.5):
     - BlocksKit/All (= 2.2.5)
@@ -29,18 +29,20 @@ PODS:
   - BlocksKit/UIKit (2.2.5):
     - BlocksKit/Core
     - BlocksKit/DynamicDelegate
-  - Bugly (2.5.2)
+  - Bugly (2.5.91)
   - CWStatusBarNotification (2.3.5)
   - Masonry (1.1.0)
   - MBProgressHUD (1.2.0)
-  - MJExtension (3.2.1)
-  - MJRefresh (3.3.1)
-  - SDWebImage (5.6.1):
-    - SDWebImage/Core (= 5.6.1)
-  - SDWebImage/Core (5.6.1)
+  - MJExtension (3.4.1)
+  - MJRefresh (3.7.5)
+  - MMMaterialDesignSpinner (0.2.5)
+  - SDWebImage (5.12.2):
+    - SDWebImage/Core (= 5.12.2)
+  - SDWebImage/Core (5.12.2)
   - SuperPlayer/Player (3.1.1):
     - AFNetworking
     - Masonry
+    - MMMaterialDesignSpinner
     - SDWebImage
 
 DEPENDENCIES:
@@ -65,6 +67,7 @@ SPEC REPOS:
     - MBProgressHUD
     - MJExtension
     - MJRefresh
+    - MMMaterialDesignSpinner
     - SDWebImage
 
 EXTERNAL SOURCES:
@@ -72,17 +75,18 @@ EXTERNAL SOURCES:
     :path: "./TXLiteAVDemo/SuperPlayerKit/SuperPlayer.podspec"
 
 SPEC CHECKSUMS:
-  AFNetworking: d9fdf484a3c723ec3c558a41cc5754c7e845ee77
+  AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
   BlocksKit: 7f422b971407001178d181a43b99014ea2591fe6
-  Bugly: dbac48b55ad469a97cc4321045cd50df8f63d44f
+  Bugly: afe841bba2ea6de6d432a3c125240a5e75949c55
   CWStatusBarNotification: 3d2738b25c3207f60cc50201388d3c96182545ff
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
-  MJExtension: 635f2c663dcb1bf76fa4b715b2570a5710aec545
-  MJRefresh: eeda70fbf0ad277f3178cef1cd0c3532591d6237
-  SDWebImage: 7edb9c3ea661e77a66661f7f044de8c1b55d1120
-  SuperPlayer: 3f49af712410a59c42c2c9bfcacd33e3a0e3e5ab
+  MJExtension: 21c5f6f8c4d5d8844b7ae8fbae08fed0b501f961
+  MJRefresh: fdf5e979eb406a0341468932d1dfc8b7f9fce961
+  MMMaterialDesignSpinner: a548042720c2e5f04212048483085d7942ac3e81
+  SDWebImage: 240e5c12b592fb1268c1d03b8c90d90e8c2ffe82
+  SuperPlayer: 8612005c5a404e922782a6b25ee1da99eda06118
 
 PODFILE CHECKSUM: 1df379d334d15387f79476735627426f004b5aed
 
-COCOAPODS: 1.10.1
+COCOAPODS: 1.11.2

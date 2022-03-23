@@ -13,6 +13,7 @@ Pod::Spec.new do |spec|
     spec.dependency 'AFNetworking'
     spec.dependency 'SDWebImage'
     spec.dependency 'Masonry'
+    spec.dependency 'MMMaterialDesignSpinner'
     #spec.dependency 'MMLayout'
 
     spec.static_framework = true

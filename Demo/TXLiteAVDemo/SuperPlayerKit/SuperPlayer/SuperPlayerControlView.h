@@ -7,7 +7,7 @@
 //
 #import <UIKit/UIKit.h>
 
-#import "MMMaterialDesignSpinner.h"
+#import <MMMaterialDesignSpinner/MMMaterialDesignSpinner.h>
 #import "PlayerSlider.h"
 #import "SPVideoFrameDescription.h"
 #import "SuperPlayerControlViewDelegate.h"

@@ -2,7 +2,7 @@
 
 #import <AVFoundation/AVFoundation.h>
 #import <Photos/Photos.h>
-#import <SDWebImage.h>
+#import <SDWebImage/SDWebImage.h>
 
 #import "DataReport.h"
 #import "J2Obj.h"
